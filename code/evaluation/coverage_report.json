@@ -1,0 +1,959 @@
+{
+ "files": [
+  {
+   "file_id": "evidence_01",
+   "path": "evidence/logs/service_events_ap_south_20260915.log",
+   "observations": 36,
+   "linked": 36,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_02",
+   "path": "evidence/records/customer_data_snapshot_bundle_20260917.json",
+   "observations": 41,
+   "linked": 36,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_03",
+   "path": "evidence/records/customer_account_handover_20261001.txt",
+   "observations": 41,
+   "linked": 39,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_04",
+   "path": "evidence/images/account_admin_console_20260926.png",
+   "observations": 1,
+   "linked": 1,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_05",
+   "path": "evidence/databases/customer_data_read_replica_20260921.sql",
+   "observations": 61,
+   "linked": 55,
+   "scopes": 7,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_06",
+   "path": "evidence/logs/structured_service_events_eu_west_20260918.log",
+   "observations": 37,
+   "linked": 36,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_07",
+   "path": "evidence/records/customer_data_snapshot_bundle_20260913.json",
+   "observations": 30,
+   "linked": 26,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_08",
+   "path": "evidence/logs/search_index_diagnostic_20260906.log",
+   "observations": 36,
+   "linked": 35,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_09",
+   "path": "evidence/images/search_index_inspector_20260901.png",
+   "observations": 2,
+   "linked": 2,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_10",
+   "path": "evidence/databases/customer_data_read_replica_20260827.sql",
+   "observations": 59,
+   "linked": 49,
+   "scopes": 7,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_11",
+   "path": "evidence/logs/syslog_archive_us_east_20260824.log",
+   "observations": 36,
+   "linked": 34,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_12",
+   "path": "evidence/records/customer_data_snapshot_bundle_20260819.json",
+   "observations": 29,
+   "linked": 27,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_13",
+   "path": "evidence/records/connector_configurations_20260812.json",
+   "observations": 39,
+   "linked": 39,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_14",
+   "path": "evidence/images/connector_management_console_20260807.png",
+   "observations": 0,
+   "note": "media not read"
+  },
+  {
+   "file_id": "evidence_15",
+   "path": "evidence/databases/customer_data_read_replica_20260802.sql",
+   "observations": 49,
+   "linked": 45,
+   "scopes": 8,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_16",
+   "path": "evidence/logs/application_trace_ap_northeast_20260730.log",
+   "observations": 36,
+   "linked": 34,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_17",
+   "path": "evidence/records/customer_data_snapshot_bundle_20260725.json",
+   "observations": 36,
+   "linked": 34,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_18",
+   "path": "evidence/documents/account_history_report_20260718.pdf",
+   "observations": 1,
+   "linked": 1,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_19",
+   "path": "evidence/images/analytics_profile_view_20260713.png",
+   "observations": 0,
+   "linked": 0,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": [
+    "dropped id 'user_20'"
+   ]
+  },
+  {
+   "file_id": "evidence_20",
+   "path": "evidence/databases/customer_data_read_replica_20260708.sql",
+   "observations": 63,
+   "linked": 59,
+   "scopes": 7,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_21",
+   "path": "evidence/logs/operations_stream_eu_central_20260705.log",
+   "observations": 41,
+   "linked": 37,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_22",
+   "path": "evidence/records/customer_data_snapshot_bundle_20260630.json",
+   "observations": 71,
+   "linked": 65,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_23",
+   "path": "evidence/images/customer_export_console_20260618.png",
+   "observations": 0,
+   "note": "media not read"
+  },
+  {
+   "file_id": "evidence_24",
+   "path": "evidence/databases/customer_data_read_replica_20260613.sql",
+   "observations": 50,
+   "linked": 44,
+   "scopes": 8,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_25",
+   "path": "evidence/logs/cloud_runtime_export_us_west_20260608.log",
+   "observations": 43,
+   "linked": 41,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_26",
+   "path": "evidence/records/customer_data_snapshot_bundle_20260605.json",
+   "observations": 32,
+   "linked": 29,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_27",
+   "path": "evidence/documents/legal_retention_register_20260529.pdf",
+   "observations": 6,
+   "linked": 6,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_28",
+   "path": "evidence/images/support_ticket_console_20260524.png",
+   "observations": 1,
+   "linked": 1,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_29",
+   "path": "evidence/databases/customer_data_regional_replicas_20260519.sql",
+   "observations": 85,
+   "linked": 79,
+   "scopes": 8,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_30",
+   "path": "evidence/logs/service_events_sa_east_20260516.log",
+   "observations": 38,
+   "linked": 34,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_31",
+   "path": "evidence/records/customer_data_snapshot_bundle_20260511.json",
+   "observations": 74,
+   "linked": 68,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_32",
+   "path": "evidence/images/backup_restore_console_20260429.png",
+   "observations": 4,
+   "linked": 4,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_33",
+   "path": "evidence/databases/customer_data_regional_replicas_20260424.sql",
+   "observations": 89,
+   "linked": 83,
+   "scopes": 7,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_34",
+   "path": "evidence/logs/structured_service_events_ca_central_20260419.log",
+   "observations": 44,
+   "linked": 43,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_35",
+   "path": "evidence/records/customer_data_snapshot_bundle_20260416.json",
+   "observations": 28,
+   "linked": 24,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_36",
+   "path": "evidence/records/customer_export_manifest_20260409.json",
+   "observations": 46,
+   "linked": 43,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_37",
+   "path": "evidence/images/security_audit_explorer_20260905.png",
+   "observations": 0,
+   "note": "media not read"
+  },
+  {
+   "file_id": "evidence_38",
+   "path": "evidence/databases/customer_data_regional_replicas_20260330.sql",
+   "observations": 85,
+   "linked": 73,
+   "scopes": 6,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_39",
+   "path": "evidence/logs/syslog_archive_ap_southeast_20260325.log",
+   "observations": 40,
+   "linked": 40,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_40",
+   "path": "evidence/records/customer_data_snapshot_bundle_20260322.json",
+   "observations": 31,
+   "linked": 28,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_41",
+   "path": "evidence/logs/notification_delivery_20260315.log",
+   "observations": 39,
+   "linked": 39,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_42",
+   "path": "evidence/images/deleted_account_reference_20260310.png",
+   "observations": 0,
+   "linked": 0,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": [
+    "dropped id 'CS-3245'",
+    "dropped id 'CS-3378'",
+    "dropped id 'FIN-7742'",
+    "dropped id 'ORD-20263245'",
+    "dropped id 'user_17'"
+   ]
+  },
+  {
+   "file_id": "evidence_43",
+   "path": "evidence/databases/customer_data_reporting_replica_20260305.sql",
+   "observations": 51,
+   "linked": 45,
+   "scopes": 8,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_44",
+   "path": "evidence/logs/application_trace_eu_north_20260302.log",
+   "observations": 41,
+   "linked": 38,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_45",
+   "path": "evidence/records/customer_data_snapshot_bundle_20260223.json",
+   "observations": 75,
+   "linked": 73,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_46",
+   "path": "evidence/images/object_storage_browser_20260213.png",
+   "observations": 0,
+   "linked": 0,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": [
+    "dropped id 'customer_export_2026-02-10.zip'",
+    "dropped id 'customer_export_2026-02-12.zip'",
+    "dropped id 'delivery_confirmation_19.pdf'",
+    "dropped id 'delivery_confirmation_20.pdf'",
+    "dropped id 'invoice_NS-10493.pdf'",
+    "dropped id 'parcel_damage_7713.jpg'",
+    "dropped id 'return_label_4821.pdf'",
+    "dropped id 'return_label_4876.pdf'"
+   ]
+  },
+  {
+   "file_id": "evidence_47",
+   "path": "evidence/databases/customer_data_reporting_replica_20260208.sql",
+   "observations": 49,
+   "linked": 47,
+   "scopes": 9,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_48",
+   "path": "evidence/logs/operations_stream_me_central_20260203.log",
+   "observations": 36,
+   "linked": 34,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_49",
+   "path": "evidence/records/customer_data_snapshot_bundle_20260131.json",
+   "observations": 34,
+   "linked": 32,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_50",
+   "path": "evidence/records/security_audit_ledger_20261001.json",
+   "observations": 20,
+   "linked": 20,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_51",
+   "path": "evidence/records/customer_data_snapshot_bundle_20260915.json",
+   "observations": 4,
+   "linked": 4,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_52",
+   "path": "evidence/databases/customer_data_failover_replica_20260920.sql",
+   "observations": 32,
+   "linked": 32,
+   "scopes": 2,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_53",
+   "path": "evidence/logs/cloud_runtime_export_af_south_20260930.log",
+   "observations": 300,
+   "linked": 300,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_54",
+   "path": "evidence/databases/customer_accounts_failover_replica_20260902.sql",
+   "observations": 7,
+   "linked": 7,
+   "scopes": 1,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_55",
+   "path": "evidence/documents/security_retention_extract.pdf",
+   "observations": 1,
+   "linked": 1,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_56",
+   "path": "evidence/records/customer_analytics_report_20260907.json",
+   "observations": 2,
+   "linked": 1,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_57",
+   "path": "evidence/databases/customer_search_primary_20260910.sql",
+   "observations": 3,
+   "linked": 3,
+   "scopes": 1,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_58",
+   "path": "evidence/documents/delivery_correction_attachment.pdf",
+   "observations": 1,
+   "linked": 1,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_59",
+   "path": "evidence/records/customer_export_jobs_20260914.json",
+   "observations": 2,
+   "linked": 2,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_60",
+   "path": "evidence/images/marketing_profile_console.png",
+   "observations": 1,
+   "linked": 1,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_61",
+   "path": "evidence/logs/support_replica.log",
+   "observations": 3,
+   "linked": 3,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_62",
+   "path": "evidence/records/service_resource_export_20260129_114459.json",
+   "observations": 29,
+   "linked": 24,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_63",
+   "path": "evidence/databases/customer_data_inventory_20260213.sql",
+   "observations": 17,
+   "linked": 14,
+   "scopes": 8,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_64",
+   "path": "evidence/logs/resource_lookup_trace_20260218_083911.log",
+   "observations": 26,
+   "linked": 25,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_65",
+   "path": "evidence/records/service_resource_export_20260228_103637.json",
+   "observations": 27,
+   "linked": 20,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_66",
+   "path": "evidence/databases/customer_data_inventory_20260310.sql",
+   "observations": 23,
+   "linked": 21,
+   "scopes": 8,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_67",
+   "path": "evidence/logs/resource_lookup_trace_20260310_061801.log",
+   "observations": 1,
+   "linked": 1,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_68",
+   "path": "evidence/records/service_resource_export_20260320_072349.json",
+   "observations": 25,
+   "linked": 18,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_69",
+   "path": "evidence/databases/customer_data_inventory_20260404.sql",
+   "observations": 18,
+   "linked": 16,
+   "scopes": 8,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_70",
+   "path": "evidence/logs/resource_lookup_trace_20260414_054007.log",
+   "observations": 24,
+   "linked": 20,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_71",
+   "path": "evidence/records/service_resource_export_20260429_083222.json",
+   "observations": 28,
+   "linked": 20,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_72",
+   "path": "evidence/databases/customer_data_inventory_20260504.sql",
+   "observations": 21,
+   "linked": 19,
+   "scopes": 8,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_73",
+   "path": "evidence/logs/resource_lookup_trace_20260509_104353.log",
+   "observations": 33,
+   "linked": 29,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_74",
+   "path": "evidence/records/service_resource_export_20260514_114454.json",
+   "observations": 25,
+   "linked": 17,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_75",
+   "path": "evidence/databases/customer_data_inventory_20260524.sql",
+   "observations": 24,
+   "linked": 20,
+   "scopes": 8,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_76",
+   "path": "evidence/logs/resource_lookup_trace_20260529_074313.log",
+   "observations": 23,
+   "linked": 20,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_77",
+   "path": "evidence/records/service_resource_export_20260603_083457.json",
+   "observations": 27,
+   "linked": 21,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_78",
+   "path": "evidence/databases/customer_data_inventory_20260618.sql",
+   "observations": 19,
+   "linked": 17,
+   "scopes": 8,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_79",
+   "path": "evidence/logs/resource_lookup_trace_20260623_053726.log",
+   "observations": 29,
+   "linked": 26,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_80",
+   "path": "evidence/records/service_resource_export_20260628_062556.json",
+   "observations": 24,
+   "linked": 18,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_81",
+   "path": "evidence/databases/customer_data_inventory_20260703.sql",
+   "observations": 24,
+   "linked": 20,
+   "scopes": 8,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_82",
+   "path": "evidence/logs/resource_lookup_trace_20260713_093359.log",
+   "observations": 26,
+   "linked": 22,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_83",
+   "path": "evidence/records/service_resource_export_20260718_104335.json",
+   "observations": 29,
+   "linked": 24,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_84",
+   "path": "evidence/databases/customer_data_inventory_20260723.sql",
+   "observations": 26,
+   "linked": 24,
+   "scopes": 8,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_85",
+   "path": "evidence/logs/resource_lookup_trace_20260728_054417.log",
+   "observations": 22,
+   "linked": 20,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_86",
+   "path": "evidence/records/service_resource_export_20260807_074104.json",
+   "observations": 23,
+   "linked": 18,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_87",
+   "path": "evidence/databases/customer_data_inventory_20260817.sql",
+   "observations": 19,
+   "linked": 17,
+   "scopes": 8,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_88",
+   "path": "evidence/logs/resource_lookup_trace_20260822_103910.log",
+   "observations": 22,
+   "linked": 20,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_89",
+   "path": "evidence/records/service_resource_export_20260901_053316.json",
+   "observations": 23,
+   "linked": 21,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_90",
+   "path": "evidence/databases/customer_data_inventory_20260905.sql",
+   "observations": 0,
+   "linked": 0,
+   "scopes": 8,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_91",
+   "path": "evidence/logs/resource_lookup_trace_20260911_074253.log",
+   "observations": 30,
+   "linked": 26,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_92",
+   "path": "evidence/records/service_resource_export_20260915_114455.json",
+   "observations": 36,
+   "linked": 26,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_93",
+   "path": "evidence/databases/customer_data_inventory_20260916.sql",
+   "observations": 17,
+   "linked": 16,
+   "scopes": 8,
+   "unparsed_lines": 0,
+   "notes": []
+  },
+  {
+   "file_id": "evidence_94",
+   "path": "evidence/logs/resource_lookup_trace_20260926_103856.log",
+   "observations": 28,
+   "linked": 25,
+   "scopes": 0,
+   "unparsed_lines": 0,
+   "notes": []
+  }
+ ],
+ "review": [
+  {
+   "case_id": "case_18",
+   "flags": [
+    "ambiguous_account"
+   ],
+   "candidates": [
+    "account_3610",
+    "account_5521",
+    "account_5193",
+    "account_5823"
+   ]
+  },
+  {
+   "case_id": "case_22",
+   "flags": [
+    "ambiguous_account"
+   ],
+   "candidates": [
+    "account_4990",
+    "account_6633",
+    "account_6138"
+   ]
+  },
+  {
+   "case_id": "case_23",
+   "flags": [
+    "ambiguous_account"
+   ],
+   "candidates": [
+    "account_7015",
+    "account_410",
+    "account_9155"
+   ]
+  },
+  {
+   "case_id": "case_25",
+   "flags": [
+    "ambiguous_account"
+   ],
+   "candidates": [
+    "account_5684",
+    "account_3136"
+   ]
+  },
+  {
+   "case_id": "case_26",
+   "flags": [
+    "ambiguous_account"
+   ],
+   "candidates": [
+    "account_5684",
+    "account_3136"
+   ]
+  },
+  {
+   "case_id": "case_28",
+   "flags": [
+    "ambiguous_account"
+   ],
+   "candidates": [
+    "account_7012",
+    "account_5482"
+   ]
+  },
+  {
+   "case_id": "case_29",
+   "flags": [
+    "ambiguous_account"
+   ],
+   "candidates": [
+    "account_7012",
+    "account_5482"
+   ]
+  },
+  {
+   "case_id": "case_31",
+   "flags": [
+    "ambiguous_account"
+   ],
+   "candidates": [
+    "account_1810",
+    "account_4857"
+   ]
+  },
+  {
+   "case_id": "case_32",
+   "flags": [
+    "ambiguous_account"
+   ],
+   "candidates": [
+    "account_8858",
+    "account_2381"
+   ]
+  }
+ ],
+ "intent_stats": {
+  "regex": 31,
+  "model": 1,
+  "fallback": 0
+ }
+}

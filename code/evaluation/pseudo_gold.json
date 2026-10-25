@@ -1,0 +1,731 @@
+{
+ "case_64": {
+  "status": "COMPLETE",
+  "steps": [
+   {
+    "step_no": 1,
+    "phase": "VERIFICATION",
+    "system_id": "account_service",
+    "resource_id": "account_565",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "state": "ABSENT",
+    "evidence_id": "evidence_93"
+   },
+   {
+    "step_no": 2,
+    "phase": "VERIFICATION",
+    "system_id": "security_service",
+    "resource_id": "audit_record_1892",
+    "operation": "VERIFY_RECORD_PRESENT",
+    "state": "PRESENT",
+    "evidence_id": "evidence_93"
+   },
+   {
+    "step_no": 3,
+    "phase": "VERIFICATION",
+    "system_id": "support_platform",
+    "resource_id": "support_6334",
+    "operation": "VERIFY_RECORD_REDACTED",
+    "state": "REDACTED",
+    "evidence_id": "evidence_93"
+   },
+   {
+    "step_no": 4,
+    "phase": "VERIFICATION",
+    "system_id": "analytics_platform",
+    "resource_id": "analytics_5718",
+    "operation": "VERIFY_RECORD_ANONYMIZED",
+    "state": "ANONYMIZED",
+    "evidence_id": "evidence_93"
+   },
+   {
+    "step_no": 5,
+    "phase": "VERIFICATION",
+    "system_id": "integration_service",
+    "resource_id": "data_flow_6846",
+    "operation": "VERIFY_DATA_FLOW_DISABLED",
+    "state": "DISABLED",
+    "evidence_id": "evidence_93"
+   },
+   {
+    "step_no": 6,
+    "phase": "VERIFICATION",
+    "system_id": "backup_service",
+    "resource_id": "backup_3933",
+    "operation": "VERIFY_RESTORE_BLOCKED",
+    "state": "BLOCKED",
+    "evidence_id": "evidence_93"
+   }
+  ],
+  "note": "inventory SQL: backup blocked, connector stopped, support redacted, audit present; anonymised analytics_5718 sits in the 7-min cadence (08:31) between the account delete and support_6334; account_565 is the only PARTIAL delete in the batch"
+ },
+ "case_65": {
+  "status": "INCOMPLETE",
+  "steps": [
+   {
+    "step_no": 1,
+    "phase": "FINDING",
+    "system_id": "search_service",
+    "resource_id": "search_689",
+    "operation": "REPORT_REMAINING_RECORD",
+    "state": "PRESENT",
+    "evidence_id": "evidence_93"
+   },
+   {
+    "step_no": 2,
+    "phase": "FINDING",
+    "system_id": "analytics_platform",
+    "resource_id": "analytics_9246",
+    "operation": "REPORT_EXPOSED_PII",
+    "state": "PRESENT",
+    "evidence_id": "evidence_93"
+   },
+   {
+    "step_no": 3,
+    "phase": "REMEDIATION",
+    "system_id": "search_service",
+    "resource_id": "search_689",
+    "operation": "DELETE_RECORD",
+    "state": "ABSENT",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 4,
+    "phase": "REMEDIATION",
+    "system_id": "analytics_platform",
+    "resource_id": "analytics_9246",
+    "operation": "ANONYMIZE_RECORD",
+    "state": "ANONYMIZED",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 5,
+    "phase": "VERIFICATION",
+    "system_id": "account_service",
+    "resource_id": "account_5488",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "state": "ABSENT",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 6,
+    "phase": "VERIFICATION",
+    "system_id": "search_service",
+    "resource_id": "search_689",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "state": "ABSENT",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 7,
+    "phase": "VERIFICATION",
+    "system_id": "analytics_platform",
+    "resource_id": "analytics_9246",
+    "operation": "VERIFY_RECORD_ANONYMIZED",
+    "state": "ANONYMIZED",
+    "evidence_id": ""
+   }
+  ],
+  "note": "inventory SQL: search_689 and analytics_9246 still carry the email; account_5488 is the only PARTIAL delete in the batch"
+ },
+ "case_97": {
+  "status": "COMPLETE",
+  "steps": [
+   {
+    "step_no": 1,
+    "phase": "VERIFICATION",
+    "system_id": "account_service",
+    "resource_id": "account_6813",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "state": "ABSENT",
+    "evidence_id": "evidence_89"
+   },
+   {
+    "step_no": 2,
+    "phase": "VERIFICATION",
+    "system_id": "security_service",
+    "resource_id": "audit_record_8778",
+    "operation": "VERIFY_RECORD_PRESENT",
+    "state": "PRESENT",
+    "evidence_id": "evidence_89"
+   }
+  ],
+  "note": "service export: only the audit record names user_95; account_6813 is the only PARTIAL delete in the batch"
+ },
+ "case_93": {
+  "status": "INCOMPLETE",
+  "steps": [
+   {
+    "step_no": 1,
+    "phase": "FINDING",
+    "system_id": "account_service",
+    "resource_id": "account_4421",
+    "operation": "REPORT_REMAINING_RECORD",
+    "state": "PRESENT",
+    "evidence_id": "evidence_89"
+   },
+   {
+    "step_no": 2,
+    "phase": "FINDING",
+    "system_id": "search_service",
+    "resource_id": "search_1310",
+    "operation": "REPORT_REMAINING_RECORD",
+    "state": "PRESENT",
+    "evidence_id": "evidence_89"
+   },
+   {
+    "step_no": 3,
+    "phase": "FINDING",
+    "system_id": "support_platform",
+    "resource_id": "support_1824",
+    "operation": "REPORT_EXPOSED_PII",
+    "state": "PRESENT",
+    "evidence_id": "evidence_89"
+   },
+   {
+    "step_no": 4,
+    "phase": "FINDING",
+    "system_id": "integration_service",
+    "resource_id": "data_flow_047",
+    "operation": "REPORT_ACTIVE_DATA_FLOW",
+    "state": "ACTIVE",
+    "evidence_id": "evidence_89"
+   },
+   {
+    "step_no": 5,
+    "phase": "REMEDIATION",
+    "system_id": "integration_service",
+    "resource_id": "data_flow_047",
+    "operation": "DISABLE_DATA_FLOW",
+    "state": "DISABLED",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 6,
+    "phase": "REMEDIATION",
+    "system_id": "account_service",
+    "resource_id": "account_4421",
+    "operation": "DELETE_RECORD",
+    "state": "ABSENT",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 7,
+    "phase": "REMEDIATION",
+    "system_id": "search_service",
+    "resource_id": "search_1310",
+    "operation": "DELETE_RECORD",
+    "state": "ABSENT",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 8,
+    "phase": "REMEDIATION",
+    "system_id": "support_platform",
+    "resource_id": "support_1824",
+    "operation": "REDACT_RECORD",
+    "state": "REDACTED",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 9,
+    "phase": "VERIFICATION",
+    "system_id": "account_service",
+    "resource_id": "account_4421",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "state": "ABSENT",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 10,
+    "phase": "VERIFICATION",
+    "system_id": "search_service",
+    "resource_id": "search_1310",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "state": "ABSENT",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 11,
+    "phase": "VERIFICATION",
+    "system_id": "support_platform",
+    "resource_id": "support_1824",
+    "operation": "VERIFY_RECORD_REDACTED",
+    "state": "REDACTED",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 12,
+    "phase": "VERIFICATION",
+    "system_id": "integration_service",
+    "resource_id": "data_flow_047",
+    "operation": "VERIFY_DATA_FLOW_DISABLED",
+    "state": "DISABLED",
+    "evidence_id": ""
+   }
+  ],
+  "note": "service export: account 200 with email, search hit, support requester_email, connector still enabled; account_4421 is itself in the export"
+ },
+ "case_44": {
+  "status": "COMPLETE",
+  "steps": [
+   {
+    "step_no": 1,
+    "phase": "VERIFICATION",
+    "system_id": "account_service",
+    "resource_id": "account_2064",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "state": "ABSENT",
+    "evidence_id": "evidence_94"
+   },
+   {
+    "step_no": 2,
+    "phase": "VERIFICATION",
+    "system_id": "security_service",
+    "resource_id": "audit_record_1105",
+    "operation": "VERIFY_RECORD_PRESENT",
+    "state": "PRESENT",
+    "evidence_id": "evidence_94"
+   },
+   {
+    "step_no": 3,
+    "phase": "VERIFICATION",
+    "system_id": "support_platform",
+    "resource_id": "support_1066",
+    "operation": "VERIFY_RECORD_REDACTED",
+    "state": "REDACTED",
+    "evidence_id": "evidence_94"
+   },
+   {
+    "step_no": 4,
+    "phase": "VERIFICATION",
+    "system_id": "analytics_platform",
+    "resource_id": "analytics_9406",
+    "operation": "VERIFY_RECORD_ANONYMIZED",
+    "state": "ANONYMIZED",
+    "evidence_id": "evidence_94"
+   },
+   {
+    "step_no": 5,
+    "phase": "VERIFICATION",
+    "system_id": "integration_service",
+    "resource_id": "data_flow_223",
+    "operation": "VERIFY_DATA_FLOW_DISABLED",
+    "state": "DISABLED",
+    "evidence_id": "evidence_94"
+   },
+   {
+    "step_no": 6,
+    "phase": "VERIFICATION",
+    "system_id": "backup_service",
+    "resource_id": "backup_6266",
+    "operation": "VERIFY_RESTORE_BLOCKED",
+    "state": "BLOCKED",
+    "evidence_id": "evidence_94"
+   }
+  ],
+  "note": "readback trace: account 404, audit present, connector disabled, support redacted, backup blocked; the two identity-less analytics at 10:31 are ambiguous and left out"
+ },
+ "case_43": {
+  "status": "INCOMPLETE",
+  "steps": [
+   {
+    "step_no": 1,
+    "phase": "FINDING",
+    "system_id": "account_service",
+    "resource_id": "account_8681",
+    "operation": "REPORT_REMAINING_RECORD",
+    "state": "PRESENT",
+    "evidence_id": "evidence_94"
+   },
+   {
+    "step_no": 2,
+    "phase": "REMEDIATION",
+    "system_id": "account_service",
+    "resource_id": "account_8681",
+    "operation": "DELETE_RECORD",
+    "state": "ABSENT",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 3,
+    "phase": "VERIFICATION",
+    "system_id": "account_service",
+    "resource_id": "account_8681",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "state": "ABSENT",
+    "evidence_id": ""
+   }
+  ],
+  "note": "readback trace: account_8681 returns 200 with the email after a SUCCESS delete claim (ghost)"
+ },
+ "case_41": {
+  "status": "COMPLETE",
+  "steps": [
+   {
+    "step_no": 1,
+    "phase": "VERIFICATION",
+    "system_id": "account_service",
+    "resource_id": "account_4051",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "state": "ABSENT",
+    "evidence_id": "evidence_03"
+   },
+   {
+    "step_no": 2,
+    "phase": "VERIFICATION",
+    "system_id": "security_service",
+    "resource_id": "audit_record_7814",
+    "operation": "VERIFY_RECORD_PRESENT",
+    "state": "PRESENT",
+    "evidence_id": "evidence_03"
+   },
+   {
+    "step_no": 3,
+    "phase": "VERIFICATION",
+    "system_id": "support_platform",
+    "resource_id": "support_2667",
+    "operation": "VERIFY_RECORD_REDACTED",
+    "state": "REDACTED",
+    "evidence_id": "evidence_03"
+   },
+   {
+    "step_no": 4,
+    "phase": "VERIFICATION",
+    "system_id": "analytics_platform",
+    "resource_id": "analytics_6830",
+    "operation": "VERIFY_RECORD_ANONYMIZED",
+    "state": "ANONYMIZED",
+    "evidence_id": "evidence_03"
+   },
+   {
+    "step_no": 5,
+    "phase": "VERIFICATION",
+    "system_id": "integration_service",
+    "resource_id": "data_flow_2901",
+    "operation": "VERIFY_DATA_FLOW_DISABLED",
+    "state": "DISABLED",
+    "evidence_id": "evidence_03"
+   },
+   {
+    "step_no": 6,
+    "phase": "VERIFICATION",
+    "system_id": "backup_service",
+    "resource_id": "backup_706",
+    "operation": "VERIFY_RESTORE_BLOCKED",
+    "state": "BLOCKED",
+    "evidence_id": "evidence_03"
+   }
+  ],
+  "note": "handover: account NOT_FOUND, backup BLOCKED, flow DISABLED, support REDACTED, audit FOUND; analytics_6830 anonymised at 11:31 in the cadence before support_2667 (11:38)"
+ },
+ "case_433": {
+  "status": "INCOMPLETE",
+  "steps": [
+   {
+    "step_no": 1,
+    "phase": "FINDING",
+    "system_id": "search_service",
+    "resource_id": "search_9100",
+    "operation": "REPORT_REMAINING_RECORD",
+    "state": "PRESENT",
+    "evidence_id": "evidence_41"
+   },
+   {
+    "step_no": 2,
+    "phase": "FINDING",
+    "system_id": "integration_service",
+    "resource_id": "data_flow_1283",
+    "operation": "REPORT_ACTIVE_DATA_FLOW",
+    "state": "ACTIVE",
+    "evidence_id": "evidence_41"
+   },
+   {
+    "step_no": 3,
+    "phase": "REMEDIATION",
+    "system_id": "integration_service",
+    "resource_id": "data_flow_1283",
+    "operation": "DISABLE_DATA_FLOW",
+    "state": "DISABLED",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 4,
+    "phase": "REMEDIATION",
+    "system_id": "search_service",
+    "resource_id": "search_9100",
+    "operation": "DELETE_RECORD",
+    "state": "ABSENT",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 5,
+    "phase": "VERIFICATION",
+    "system_id": "account_service",
+    "resource_id": "account_5817",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "state": "ABSENT",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 6,
+    "phase": "VERIFICATION",
+    "system_id": "search_service",
+    "resource_id": "search_9100",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "state": "ABSENT",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 7,
+    "phase": "VERIFICATION",
+    "system_id": "security_service",
+    "resource_id": "audit_record_6665",
+    "operation": "VERIFY_RECORD_PRESENT",
+    "state": "PRESENT",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 8,
+    "phase": "VERIFICATION",
+    "system_id": "integration_service",
+    "resource_id": "data_flow_1283",
+    "operation": "VERIFY_DATA_FLOW_DISABLED",
+    "state": "DISABLED",
+    "evidence_id": ""
+   }
+  ],
+  "note": "record_lookup log: search FOUND, data flow ACTIVE, account NOT_FOUND, audit FOUND"
+ },
+ "case_413": {
+  "status": "INCOMPLETE",
+  "steps": [
+   {
+    "step_no": 1,
+    "phase": "FINDING",
+    "system_id": "search_service",
+    "resource_id": "search_6162",
+    "operation": "REPORT_REMAINING_RECORD",
+    "state": "PRESENT",
+    "evidence_id": "evidence_39"
+   },
+   {
+    "step_no": 2,
+    "phase": "FINDING",
+    "system_id": "analytics_platform",
+    "resource_id": "analytics_4523",
+    "operation": "REPORT_EXPOSED_PII",
+    "state": "PRESENT",
+    "evidence_id": "evidence_39"
+   },
+   {
+    "step_no": 3,
+    "phase": "REMEDIATION",
+    "system_id": "search_service",
+    "resource_id": "search_6162",
+    "operation": "DELETE_RECORD",
+    "state": "ABSENT",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 4,
+    "phase": "REMEDIATION",
+    "system_id": "analytics_platform",
+    "resource_id": "analytics_4523",
+    "operation": "ANONYMIZE_RECORD",
+    "state": "ANONYMIZED",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 5,
+    "phase": "VERIFICATION",
+    "system_id": "account_service",
+    "resource_id": "account_563",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "state": "ABSENT",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 6,
+    "phase": "VERIFICATION",
+    "system_id": "search_service",
+    "resource_id": "search_6162",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "state": "ABSENT",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 7,
+    "phase": "VERIFICATION",
+    "system_id": "security_service",
+    "resource_id": "audit_record_9099",
+    "operation": "VERIFY_RECORD_PRESENT",
+    "state": "PRESENT",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 8,
+    "phase": "VERIFICATION",
+    "system_id": "analytics_platform",
+    "resource_id": "analytics_4523",
+    "operation": "VERIFY_RECORD_ANONYMIZED",
+    "state": "ANONYMIZED",
+    "evidence_id": ""
+   }
+  ],
+  "note": "syslog: search hit, analytics identity scan matched the email, account 404, audit present"
+ },
+ "case_480": {
+  "status": "COMPLETE",
+  "steps": [
+   {
+    "step_no": 1,
+    "phase": "VERIFICATION",
+    "system_id": "account_service",
+    "resource_id": "account_2465",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "state": "ABSENT",
+    "evidence_id": "evidence_45"
+   },
+   {
+    "step_no": 2,
+    "phase": "VERIFICATION",
+    "system_id": "security_service",
+    "resource_id": "audit_record_7742",
+    "operation": "VERIFY_RECORD_PRESENT",
+    "state": "PRESENT",
+    "evidence_id": "evidence_45"
+   },
+   {
+    "step_no": 3,
+    "phase": "VERIFICATION",
+    "system_id": "support_platform",
+    "resource_id": "support_5854",
+    "operation": "VERIFY_RECORD_REDACTED",
+    "state": "REDACTED",
+    "evidence_id": "evidence_45"
+   },
+   {
+    "step_no": 4,
+    "phase": "VERIFICATION",
+    "system_id": "analytics_platform",
+    "resource_id": "analytics_1794",
+    "operation": "VERIFY_RECORD_ANONYMIZED",
+    "state": "ANONYMIZED",
+    "evidence_id": "evidence_45"
+   },
+   {
+    "step_no": 5,
+    "phase": "VERIFICATION",
+    "system_id": "integration_service",
+    "resource_id": "data_flow_2893",
+    "operation": "VERIFY_DATA_FLOW_DISABLED",
+    "state": "DISABLED",
+    "evidence_id": "evidence_45"
+   },
+   {
+    "step_no": 6,
+    "phase": "VERIFICATION",
+    "system_id": "backup_service",
+    "resource_id": "backup_7706",
+    "operation": "VERIFY_RESTORE_BLOCKED",
+    "state": "BLOCKED",
+    "evidence_id": "evidence_45"
+   }
+  ],
+  "note": "snapshot bundle: backup blocked, flow disabled, support redacted, audit present; account is a coin flip between two SUCCESS deletes (9449/2465)"
+ },
+ "case_304": {
+  "status": "COMPLETE",
+  "steps": [
+   {
+    "step_no": 1,
+    "phase": "VERIFICATION",
+    "system_id": "account_service",
+    "resource_id": "account_4771",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "state": "ABSENT",
+    "evidence_id": "evidence_29"
+   },
+   {
+    "step_no": 2,
+    "phase": "VERIFICATION",
+    "system_id": "security_service",
+    "resource_id": "audit_record_4759",
+    "operation": "VERIFY_RECORD_PRESENT",
+    "state": "PRESENT",
+    "evidence_id": "evidence_29"
+   }
+  ],
+  "note": "regional replicas: only the audit record names user_302; account is a coin flip between two PARTIAL deletes"
+ },
+ "case_453": {
+  "status": "INCOMPLETE",
+  "steps": [
+   {
+    "step_no": 1,
+    "phase": "FINDING",
+    "system_id": "account_service",
+    "resource_id": "account_3183",
+    "operation": "REPORT_REMAINING_RECORD",
+    "state": "PRESENT",
+    "evidence_id": "evidence_43"
+   },
+   {
+    "step_no": 2,
+    "phase": "FINDING",
+    "system_id": "search_service",
+    "resource_id": "search_1317",
+    "operation": "REPORT_REMAINING_RECORD",
+    "state": "PRESENT",
+    "evidence_id": "evidence_43"
+   },
+   {
+    "step_no": 3,
+    "phase": "REMEDIATION",
+    "system_id": "account_service",
+    "resource_id": "account_3183",
+    "operation": "DELETE_RECORD",
+    "state": "ABSENT",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 4,
+    "phase": "REMEDIATION",
+    "system_id": "search_service",
+    "resource_id": "search_1317",
+    "operation": "DELETE_RECORD",
+    "state": "ABSENT",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 5,
+    "phase": "VERIFICATION",
+    "system_id": "account_service",
+    "resource_id": "account_3183",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "state": "ABSENT",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 6,
+    "phase": "VERIFICATION",
+    "system_id": "search_service",
+    "resource_id": "search_1317",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "state": "ABSENT",
+    "evidence_id": ""
+   },
+   {
+    "step_no": 7,
+    "phase": "VERIFICATION",
+    "system_id": "security_service",
+    "resource_id": "audit_record_3600",
+    "operation": "VERIFY_RECORD_PRESENT",
+    "state": "PRESENT",
+    "evidence_id": ""
+   }
+  ],
+  "note": "reporting replica still holds account_3183 (ghost copy) and search_1317 with name+email"
+ }
+}
