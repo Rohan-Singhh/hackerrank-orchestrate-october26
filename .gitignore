@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+code.zip
+output_sample.csv
+code/audit_trace/
+.pytest_cache/
