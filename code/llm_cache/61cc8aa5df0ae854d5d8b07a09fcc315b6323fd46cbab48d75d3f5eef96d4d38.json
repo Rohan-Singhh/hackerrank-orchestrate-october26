@@ -1,0 +1,13 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+ "purpose": "intent",
+ "text": "{\"intent\": \"DELETION\", \"reason\": \"The user requests confirmation that the profile is gone, indicating a desire to delete the account.\"}",
+ "usage": {
+  "input_tokens": 267,
+  "output_tokens": 245,
+  "latency_ms": 6473,
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+ },
+ "prompt_sha256": "61cc8aa5df0ae854d5d8b07a09fcc315b6323fd46cbab48d75d3f5eef96d4d38"
+}

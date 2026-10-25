@@ -1,0 +1,13 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3.5-super-vl:free",
+ "purpose": "vision",
+ "text": "{\n  \"records\": [\n    {\n      \"resource_id\": \"data_flow_1121\",\n      \"record_type\": \"DATA_FLOW\",\n      \"present\": true,\n      \"email\": \"jain.aditi@gmail.com\",\n      \"phone\": null,\n      \"name\": null,\n      \"user_id\": null,\n      \"enabled\": true,\n",
+ "usage": {
+  "input_tokens": 2493,
+  "output_tokens": 1500,
+  "latency_ms": 9477,
+  "model": "nvidia/nemotron-3.5-super-vl:free"
+ },
+ "prompt_sha256": "1fd35845b16c215eac190c7465e89b985afa3efa20e661d9974d410643858c3f"
+}

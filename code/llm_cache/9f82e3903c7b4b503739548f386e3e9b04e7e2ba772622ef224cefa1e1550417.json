@@ -1,0 +1,13 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3.5-super-vl:free",
+ "purpose": "vision",
+ "text": "{\n  \"records\": [\n    {\n      \"resource_id\": \"data_flow_1121\",\n      \"record_type\": \"DATA_FLOW\",\n      \"present\": true,\n      \"email\": \"jain.aditi@gmail.com\",\n      \"phone\": null,\n      \"name\": null,\n      \"user_id\": null,\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Destination: customer_analytics_warehouse, Mode: Continuous, Events/hour: 1,284\"\n    },\n    {\n      \"resource_id\": \"data_flow_9846\",\n      \"record_type\": \"DATA_FLOW\",\n      \"present\": true,\n      \"email\": \"lucia-torres@gmail.com\",\n      \"phone\": null,\n      \"name\": null",
+ "usage": {
+  "input_tokens": 2493,
+  "output_tokens": 1500,
+  "latency_ms": 8611,
+  "model": "nvidia/nemotron-3.5-super-vl:free"
+ },
+ "prompt_sha256": "9f82e3903c7b4b503739548f386e3e9b04e7e2ba772622ef224cefa1e1550417"
+}

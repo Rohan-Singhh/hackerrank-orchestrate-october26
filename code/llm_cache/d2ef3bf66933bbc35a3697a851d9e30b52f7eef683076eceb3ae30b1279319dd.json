@@ -1,0 +1,13 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3.5-super-vl:free",
+ "purpose": "vision",
+ "text": "{\n  \"records\": [\n    {\n      \"resource_id\": \"search_428\",\n      \"record_type\": \"SEARCH_INDEX_ENTRY\",\n      \"present\": true,\n      \"email\": \"g.silva76@gmail.com\",\n      \"phone\": null,\n      \"name\": \"Gabriel Silva\",\n      \"user_id\": \"user_13\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Score 9.84, Last indexed 05:58:21 UTC\"\n    },\n    {\n      \"resource_id\": \"search_1874\",\n      \"record_type\": \"SEARCH_INDEX_ENTRY\",\n      \"present\": true,\n      \"email\": \"g.silva76jr@gmail.com\",\n      \"phone\": null,\n      \"name\": null,\n      \"user_id\": null,\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Score 4.12, Last indexed 05:55:03 UTC\"\n    }\n  ],\n  \"page_title\": \"Customer Search\",\n  \"captured_at\": \"01 Sep 2026 06:00:14 UTC\"\n}",
+ "usage": {
+  "input_tokens": 2435,
+  "output_tokens": 1225,
+  "latency_ms": 6155,
+  "model": "nvidia/nemotron-3.5-super-vl:free"
+ },
+ "prompt_sha256": "d2ef3bf66933bbc35a3697a851d9e30b52f7eef683076eceb3ae30b1279319dd"
+}

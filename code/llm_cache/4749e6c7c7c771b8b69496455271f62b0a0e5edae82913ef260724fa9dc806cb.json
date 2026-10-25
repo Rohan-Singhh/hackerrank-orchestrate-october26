@@ -1,0 +1,13 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3.5-super-vl:free",
+ "purpose": "vision",
+ "text": "{\n  \"records\": [\n    {\n      \"resource_id\": \"marketing_001\",\n      \"record_type\": \"MARKETING_PROFILE\",\n      \"present\": true,\n      \"email\": \"sj.park@naver.com\",\n      \"phone\": \"+82 10-5837-9451\",\n      \"name\": \"Soo-jin Park\",\n      \"user_id\": null,\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Marketing profile. Market: South Korea, Language: Korean, Email opt-in: Yes, SMS opt-in: No. Last refreshed 15 Sep 2026 23:40 UTC.\"\n    }\n  ],\n  \"page_title\": \"Audience Operations\",\n  \"captured_at\": \"15 Sep 2026 23:40 UTC\"\n}",
+ "usage": {
+  "input_tokens": 1795,
+  "output_tokens": 1238,
+  "latency_ms": 63305,
+  "model": "nvidia/nemotron-3.5-super-vl:free"
+ },
+ "prompt_sha256": "4749e6c7c7c771b8b69496455271f62b0a0e5edae82913ef260724fa9dc806cb"
+}

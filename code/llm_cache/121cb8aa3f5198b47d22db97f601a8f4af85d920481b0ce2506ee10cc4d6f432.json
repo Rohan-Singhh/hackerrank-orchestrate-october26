@@ -1,0 +1,13 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3.5-super-vl:free",
+ "purpose": "vision",
+ "text": "{\n  \"records\": [\n    {\n      \"resource_id\": \"export_1261\",\n      \"record_type\": \"USER_EXPORT\",\n      \"present\": true,\n      \"email\": \"marcus.lee@northstar.shop\",\n      \"phone\": null,\n      \"name\": null,\n      \"user_id\": null,\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"customer_export_1261.zip, Collecting\"\n    },\n    {\n      \"resource_id\": \"export_1260\",\n      \"record_type\": \"USER_EXPORT\",\n      \"present\": true,\n      \"",
+ "usage": {
+  "input_tokens": 2435,
+  "output_tokens": 1500,
+  "latency_ms": 10625,
+  "model": "nvidia/nemotron-3.5-super-vl:free"
+ },
+ "prompt_sha256": "121cb8aa3f5198b47d22db97f601a8f4af85d920481b0ce2506ee10cc4d6f432"
+}

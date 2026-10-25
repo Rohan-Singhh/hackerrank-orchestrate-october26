@@ -1,0 +1,21 @@
+{
+  "openrouter": {
+    "base_url": "https://openrouter.ai/api/v1",
+    "text_model": "nvidia/nemotron-3.5-super-vl:free",
+    "vision_model": "nvidia/nemotron-3.5-super-vl:free",
+    "fallback_models": [
+      "google/gemma-4-26b-a4b-it:free",
+      "google/gemma-4-31b-it:free",
+      "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+    ],
+    "prices_per_mtok": {"default": [0.0, 0.0]}
+  },
+  "anthropic": {
+    "base_url": "https://api.anthropic.com/v1",
+    "text_model": "claude-haiku-4-5",
+    "vision_model": "claude-sonnet-4-5",
+    "prices_per_mtok": {"claude-haiku-4-5": [1.0, 5.0], "claude-sonnet-4-5": [3.0, 15.0]}
+  },
+  "concurrency": 4,
+  "max_retries": 3
+}

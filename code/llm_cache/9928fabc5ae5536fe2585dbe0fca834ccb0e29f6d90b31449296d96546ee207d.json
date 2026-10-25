@@ -1,0 +1,13 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3.5-super-vl:free",
+ "purpose": "vision",
+ "text": "{\n  \"records\": [\n    {\n      \"resource_id\": \"account_5762\",\n      \"record_type\": \"USER_PROFILE\",\n      \"present\": true,\n      \"email\": \"haruka.s1838@zoho.com\",\n      \"phone\": \"+81 90 7610 2507\",\n      \"name\": \"Haruka Sato\",\n      \"user_id\": \"user_11\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Silver loyalty tier, member since 12 Jan 2024, support CS-8538\"\n    }\n  ],\n  \"page_title\": \"Customer Operations\",\n  \"captured_at\": null\n}",
+ "usage": {
+  "input_tokens": 2605,
+  "output_tokens": 1471,
+  "latency_ms": 10057,
+  "model": "nvidia/nemotron-3.5-super-vl:free"
+ },
+ "prompt_sha256": "9928fabc5ae5536fe2585dbe0fca834ccb0e29f6d90b31449296d96546ee207d"
+}

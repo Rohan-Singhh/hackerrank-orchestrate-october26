@@ -1,0 +1,13 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+ "purpose": "vision",
+ "text": "{\n  \"records\": [\n    {\n      \"resource_id\": \"user_20\",\n      \"record_type\": \"USER_PROFILE\",\n      \"present\": true,\n      \"email\": \"darwish.omar@icloud.com\",\n      \"phone\": null,\n      \"name\": \"Omar Darwish\",\n      \"user_id\": \"user_20\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"User profile page for Omar Darwish showing analytics data.\"\n    }\n  ],\n  \"page_title\": \"Pulse Analytics\",\n  \"captured_at\": null\n}",
+ "usage": {
+  "input_tokens": 2492,
+  "output_tokens": 1212,
+  "latency_ms": 34585,
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+ },
+ "prompt_sha256": "36991c99201b371cb1fbd1d70c4bc8347d65690a4241b32c735dfd67c585880a"
+}

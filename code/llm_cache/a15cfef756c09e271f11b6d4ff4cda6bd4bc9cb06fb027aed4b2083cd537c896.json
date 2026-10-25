@@ -1,0 +1,13 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3.5-super-vl:free",
+ "purpose": "vision",
+ "text": "{\n  \"records\": [\n    {\n      \"resource_id\": \"analytics_7438\",\n      \"record_type\": \"ANALYTICS_PROFILE\",\n      \"present\": true,\n      \"email\": \"darwish.omar@icloud.com\",\n      \"phone\": null,\n      \"name\": \"Omar Darwish\",\n      \"user_id\": \"user_20\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Pulse Analytics user profile\"\n    }\n  ],\n  \"page_title\": \"Pulse Analytics\",\n  \"captured_at\": null\n}",
+ "usage": {
+  "input_tokens": 2491,
+  "output_tokens": 948,
+  "latency_ms": 6146,
+  "model": "nvidia/nemotron-3.5-super-vl:free"
+ },
+ "prompt_sha256": "a15cfef756c09e271f11b6d4ff4cda6bd4bc9cb06fb027aed4b2083cd537c896"
+}

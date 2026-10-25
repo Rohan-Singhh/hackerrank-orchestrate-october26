@@ -1,0 +1,13 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+ "purpose": "vision",
+ "text": "{\n  \"records\": [\n    {\n      \"resource_id\": \"support_1034\",\n      \"record_type\": \"USER_PROFILE\",\n      \"present\": true,\n      \"email\": \"kagyeman8947@fastmail.com\",\n      \"phone\": null,\n      \"name\": \"Kofi Agyeman\",\n      \"user_id\": null,\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Customer inquiry about delivery status\"\n    }\n  ],\n  \"page_title\": \"HelpLine Console\",\n  \"captured_at\": null\n}",
+ "usage": {
+  "input_tokens": 2608,
+  "output_tokens": 951,
+  "latency_ms": 21046,
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+ },
+ "prompt_sha256": "f886bb11f956a1a915cae81dacac6efc02711f9d936abaadde4f7f193d068515"
+}

@@ -1,0 +1,13 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3.5-super-vl:free",
+ "purpose": "vision",
+ "text": "{\n  \"records\": [\n    {\n      \"resource_id\": \"audit_record_003\",\n      \"record_type\": \"SECURITY_AUDIT_LOG\",\n      \"present\": true,\n      \"email\": null,\n      \"phone\": null,\n      \"name\": null,\n      \"user_id\": \"user_03\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Account closure recorded\"\n    },\n    {\n      \"resource_id\": \"audit_record_002\",\n      \"record_type\": \"SECURITY_AUDIT_LOG\",\n      \"present\": true,\n      \"email\": null,\n      \"phone\": null,\n      \"name\": null,\n      \"user_id\": \"user_03\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Session revoked\"\n    },\n    {\n      \"resource_id\": \"audit_record_001\",\n      \"record_type\": \"SECURITY_AUDIT_LOG",
+ "usage": {
+  "input_tokens": 2436,
+  "output_tokens": 1500,
+  "latency_ms": 9294,
+  "model": "nvidia/nemotron-3.5-super-vl:free"
+ },
+ "prompt_sha256": "daeada4ab7daddafd356cd2816282ca575fb932cdbc0fff854fa0977be0db17e"
+}

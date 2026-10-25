@@ -1,0 +1,13 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+ "purpose": "vision",
+ "text": "{\n  \"records\": [\n    {\n      \"resource_id\": \"backup_9291\",\n      \"record_type\": \"BACKUP_ARCHIVE\",\n      \"present\": true,\n      \"email\": \"bluepeakco@outlook.com\",\n      \"phone\": null,\n      \"name\": null,\n      \"user_id\": null,\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Archive\"\n    },\n    {\n      \"resource_id\": \"backup_9288\",\n      \"record_type\": \"BACKUP_ARCHIVE\",\n      \"present\": true,\n      \"email\": \"miller.logistics@company.com\",\n      \"phone\": null,\n      \"name\": null,\n      \"user_id\": null,\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Archive\"\n    },\n    {\n      \"resource_id\": \"backup_9287\",\n      \"record_type\": \"BACKUP_ARCHIVE\",\n      \"present\": true,\n      \"email\": \"areed1433@gmail.com\",\n      \"phone\": null,\n      \"name\": null,\n      \"user_id\": null,\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": \"26 Jul 2026\",\n      \"notes\": \"Archive\"\n    },\n    {\n      \"resource_id\": \"backup_9286\",\n      \"record_type\": \"BACKUP_ARCHIVE\",\n      \"present\": true,\n      \"email\": \"summit-retail@company.com\",\n      \"phone\": null,\n      \"name\": null,\n      \"user_id\": null,\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Archive\"\n    }\n  ],\n  \"page_title\": \"Vault Recovery Manager\",\n  \"captured_at\": null\n}",
+ "usage": {
+  "input_tokens": 2494,
+  "output_tokens": 1576,
+  "latency_ms": 24334,
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+ },
+ "prompt_sha256": "df90cadb802c4e0e38c2db434b5d75294c65b5bd9ca036896d448bc0ace1af24"
+}

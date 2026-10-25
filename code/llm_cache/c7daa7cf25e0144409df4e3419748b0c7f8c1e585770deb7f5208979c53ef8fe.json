@@ -1,0 +1,13 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3.5-super-vl:free",
+ "purpose": "pdf",
+ "text": "{\n  \"records\": [\n    {\n      \"resource_id\": \"user_18\",\n      \"record_type\": \"USER_PROFILE\",\n      \"present\": true,\n      \"email\": \"ingrid.dahl@outlook.com\",\n      \"phone\": null,\n      \"name\": \"Ingrid Dahl\",\n      \"user_id\": \"user_18\",\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Statement NST-2026-0718-1842; order ORD-20261260; Smart desk lamp SKU LAMP-SD-04 qty 1 total EUR 71.93; Visa ending 4821; billing status paid; order date 08 Jul 2026; delivered 14 Jul; delivery address 24 Fjordgata, 7010 Trondheim, Norway\"\n    }\n  ],\n  \"page_title\": \"NORTHSTAR SHOP - CUSTOMER STATEMENT\",\n  \"captured_at\": null\n}",
+ "usage": {
+  "input_tokens": 715,
+  "output_tokens": 1362,
+  "latency_ms": 6954,
+  "model": "nvidia/nemotron-3.5-super-vl:free"
+ },
+ "prompt_sha256": "c7daa7cf25e0144409df4e3419748b0c7f8c1e585770deb7f5208979c53ef8fe"
+}

@@ -1,0 +1,13 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+ "purpose": "vision",
+ "text": "{\n  \"records\": [\n    {\n      \"resource_id\": \"user_17\",\n      \"record_type\": \"USER_PROFILE\",\n      \"present\": true,\n      \"email\": null,\n      \"phone\": null,\n      \"name\": null,\n      \"user_id\": null,\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Retained reference\"\n    },\n    {\n      \"resource_id\": \"ORD-20263245\",\n      \"record_type\": \"USER_EXPORT\",\n      \"present\": true,\n      \"email\": null,\n      \"phone\": null,\n      \"name\": null,\n      \"user_id\": null,\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Linked to customer\"\n    },\n    {\n      \"resource_id\": \"CS-3245\",\n      \"record_type\": \"SUPPORT_MESSAGE\",\n      \"present\": true,\n      \"email\": null,\n      \"phone\": null,\n      \"name\": null,\n      \"user_id\": null,\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Linked to customer\"\n    },\n    {\n      \"resource_id\": \"CS-3378\",\n      \"record_type\": \"SUPPORT_MESSAGE\",\n      \"present\": true,\n      \"email\": null,\n      \"phone\": null,\n      \"name\": null,\n      \"user_id\": null,\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Linked to customer\"\n    },\n    {\n      \"resource_id\": \"FIN-7742\",\n      \"record_type\": \"DATA_FLOW\",\n      \"present\": true,\n      \"email\": null,\n      \"phone\": null,\n      \"name\": null,\n      \"user_id\": null,\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Linked to customer\"\n    }\n  ],\n  \"page_title\": \"Customer Reference Registry\",\n  \"captured_at\": \"10 Mar 2026 07:18 UTC\"\n}",
+ "usage": {
+  "input_tokens": 2435,
+  "output_tokens": 5306,
+  "latency_ms": 133469,
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+ },
+ "prompt_sha256": "dd62262f3c2cd88063b0fecaaeabdbd3b4149c36c5970c5de098531575c4400a"
+}

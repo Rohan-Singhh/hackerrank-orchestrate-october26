@@ -1,0 +1,13 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3.5-super-vl:free",
+ "purpose": "vision",
+ "text": "{\n  \"records\": [\n    {\n      \"resource_id\": \"export_1261\",\n      \"record_type\": \"USER_EXPORT\",\n      \"present\": true,\n      \"email\": \"marcus.lee@northstar.shop\",\n      \"phone\": null,\n      \"name\": null,\n      \"user_id\": null,\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Status: Collecting, Created: 20 Jun 14:18 UTC\"\n    },\n    {\n      \"resource_id\": \"export_1260\",\n      \"record_type\": \"USER_EXPORT\",\n      \"present\": true,\n      \"email\": \"ingrid.dahl@outlook.com\",\n      \"phone\": null,\n      \"name\": null,\n      \"user_id\": null,\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Status: Ready, Created: 18 Jun 06:42 UTC\"\n    },\n    {\n      \"resource_id\": \"export_1259\",\n      \"record_type\": \"USER_EXPORT\",\n      \"present\": true,\n      \"email\": \"sara.kim@northstar.shop\",\n      \"phone\": null,\n      \"name\": null,\n      \"user_id\": null,\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Status: Packaging, Created: 17 Jun 11:03 UTC\"\n    },\n    {\n      \"resource_id\": \"export_1258\",\n      \"record_type\": \"USER_EXPORT\",\n      \"present\": true,\n      \"email\": \"daniel.park@northstar.shop\",\n      \"phone\": null,\n      \"name\": null,\n      \"user_id\": null,\n      \"enabled\": null,\n      \"restore_allowed\": null,\n      \"retention_until\": null,\n      \"notes\": \"Status: Ready, Created: 16 Jun 09:27 UTC\"\n    }\n  ],\n  \"page_title\": \"Customer Download Center\",\n  \"captured_at\": null\n}",
+ "usage": {
+  "input_tokens": 2435,
+  "output_tokens": 1130,
+  "latency_ms": 7018,
+  "model": "nvidia/nemotron-3.5-super-vl:free"
+ },
+ "prompt_sha256": "e45e25664c0e7ac6599642f9b5292dd3a5489297cddacf5028ed465a84e7107a"
+}
