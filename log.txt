@@ -147,3 +147,21 @@ branch=main
 repo_root=C:\Users\rohan\Desktop\hackerrank-orchestrate-october26
 worktree=main
 parent_agent=none
+## [2026-10-25T04:45:59Z] Interview support: how recreation risks are detected
+
+User Prompt (verbatim, secrets redacted):
+[screenshot of the AI judge asking how the system decides an active process can still bring a record back]
+
+Agent Response Summary:
+Gave a spoken-style answer: connector configs (enabled flag, delivery status, heartbeat) become REPORT_ACTIVE_DATA_FLOW; backup restore policies (restore_allowed / eligible without deletion block / authorization decision) become REPORT_RESTORE_RISK; a record present in later evidence after a claimed delete is a ghost finding; remediation disables flows and blocks restores before deleting records; verification checks the final state. No code changes.
+
+Actions:
+* appended this log entry
+
+Context:
+tool=Claude Code
+model=claude-fable-5-1
+branch=main
+repo_root=C:\Users\rohan\Desktop\hackerrank-orchestrate-october26
+worktree=main
+parent_agent=none
