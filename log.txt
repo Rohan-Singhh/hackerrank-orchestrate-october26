@@ -128,3 +128,22 @@ branch=main
 repo_root=C:\Users\rohan\Desktop\hackerrank-orchestrate-october26
 worktree=main
 parent_agent=none
+## [2026-10-25T04:30:16Z] Interview preparation (expected questions and plain-language answers)
+
+User Prompt (verbatim, secrets redacted):
+[pasted AI Judge Interview notice] tell em what should i had to tell i tat intevreiw , expcted qiestion
+/more huamn and anti ai , liek sound like huma and easy easy word , ike easy to udnerstaand , event though its a ai interview , u ahve to be precsiose such that its look liektnthat
+
+Agent Response Summary:
+Wrote an interview prep in plain spoken language: a 45-second opening, the key numbers, likely questions with answers (why rules not an LLM agent, resource set from evidence plus activity log, identity handling, time window, ghost copies, account attribution and its measured accuracy, policy, evaluation, failures, how AI was used, next steps), two commands to demo live, and delivery tips. No code changes.
+
+Actions:
+* appended this log entry
+
+Context:
+tool=Claude Code
+model=claude-fable-5-1
+branch=main
+repo_root=C:\Users\rohan\Desktop\hackerrank-orchestrate-october26
+worktree=main
+parent_agent=none
